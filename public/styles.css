@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+/* Header Section */
+header {
+  background-color: #7192BE;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  padding: 7% 15%;
+}
+
+header h1 {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+/* Input Area */
+h1 {
+  color: #5C4742;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+form {
+  text-align: center;
+}
+
+form button {
+  border-radius: 8px;
+}
+
+/* Card */
+.cards-container {
+  padding: 4% 10%;
+}
+.card {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 20px;
+  width: 400px;
+  margin: 16px;
+}
