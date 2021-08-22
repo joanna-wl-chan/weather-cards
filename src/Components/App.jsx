@@ -9,18 +9,25 @@ const api = {
 }
 
 function App() {
-
   // locations is an array of objects containing weather info about each location
   const [locations, setLocations] = useState([]);
 
-
   function handleSearch(query) {
     fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
-    .then(res => res.json())
+    .then((response) => {
+      if (response.ok) {
+        return response.json();
+      } else {
+        throw new Error('Something went wrong');
+      }
+    })
     .then(result => {
       setLocations(prevState => {
         return [...prevState, result]
       })
+    })
+    .catch((error) => {
+      console.log(error);
     })
   }
 

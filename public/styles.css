@@ -24,11 +24,15 @@ header h1 {
 }
 
 /* Input Area */
+.inputArea {
+  background-color: #7192BE;
+}
+
 h1 {
-  color: #5C4742;
+  color: #FFFFFF;
   text-align: center;
-  font-family: 'Pacifico', cursive;
-  font-size: 2.5rem;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
@@ -37,40 +41,68 @@ form {
 }
 
 form button {
-  border-radius: 8px;
+  /* border-radius: 8px; */
 }
 
 .search-box {
   width: 100%;
-  margin: 0 0 75px;
   display: flex;
   justify-content: center;
+  background-color: #7192BE;
+  padding: 2% 7% 5%;
 }
 
 .search-box .search-bar {
-  display: block;
-  width: 80%;
-  padding: 15px;
-
   background: none;
+  background-color: #FFFFFF;
   border: none;
-  outline: none;
-
-  background-color: #7192BE;
+  border-radius: 6px 0 0 6px;
+  display: block;
   justify-content: center;
+  outline: none;
+  padding: 15px;
+  width: 40%;
+}
 
+.search-button {
+  background-color: #FFFFFF;
+  border-radius: 0 6px 6px 0;
 }
 
 /* Card */
 .cards-container {
-  padding: 4% 10%;
+  padding: 4% 4%;
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
 }
 
 .card {
-  background: #fff;
+  background: #FFFFFF;
+  background-image: url("../src/assets/cold.jpeg");
+  background-size: cover;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
-  padding: 20px;
-  width: 400px;
+  font-family: 'Signika Negative', sans-serif;
   margin: 16px;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+}
+
+.card-location {
+  font-size: 2.5rem;
+}
+
+.card-description {
+  font-size: 1rem;
+}
+
+.card-temperature {
+  font-size: 3rem;
+  padding: 7%;
+}
+
+.card-min-max {
+  font-size: 1rem;
 }
