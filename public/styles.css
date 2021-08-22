@@ -64,30 +64,28 @@ form button {
   width: 40%;
 }
 
-.search-button {
-  background-color: #FFFFFF;
-  border-radius: 0 6px 6px 0;
-}
-
 /* Card */
 .cards-container {
   padding: 4% 4%;
   display: flex;
-  /* flex-direction: row; */
   flex-wrap: wrap;
 }
 
 .card {
-  background: #FFFFFF;
-  background-image: url("../src/assets/cold.jpeg");
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 7px;
-  box-shadow: 0 2px 5px #ccc;
+  box-shadow: 0 2px 5px #CCCCCC;
   font-family: 'Signika Negative', sans-serif;
   margin: 16px;
-  padding: 20px;
+
+  padding: 5px 16px 16px 16px;
   text-align: center;
   width: 400px;
+}
+.card-delete {
+  text-align: right;
+  margin-top: 0px;
 }
 
 .card-location {

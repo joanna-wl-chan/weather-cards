@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import InputArea from "./InputArea";
 import Card from "./Card";
@@ -31,6 +31,14 @@ function App() {
     })
   }
 
+  function handleDelete(id) {
+    setLocations(prevState => {
+      return prevState.filter(location  => {
+        return location.id !== id;
+      })
+    })
+  }
+
   return (
     <>
       <Header />
@@ -39,11 +47,14 @@ function App() {
         {locations.map(location => 
           <Card 
             key={location.id} 
+            id={location.id}
+            description={location.weather[0].main}
+            weatherid={location.weather[0].id}
             location={location.name} 
             temp={location.main.temp} 
             temp_min={location.main.temp_min}
             temp_max={location.main.temp_max}
-            description={location.weather[0].main}
+            handleDelete={handleDelete}
           />)}
       </div>
     </>
