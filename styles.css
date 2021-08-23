@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Header Section */
+header {
+  background-color: #7192BE;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  padding: 7% 15%;
+}
+
+header h1 {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+/* Input Area */
+.inputArea {
+  background-color: #7192BE;
+}
+
+h1 {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+form {
+  text-align: center;
+}
+
+form button {
+  /* border-radius: 8px; */
+}
+
+.search-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #7192BE;
+  padding: 2% 7% 5%;
+}
+
+.search-box .search-bar {
+  background: none;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 6px 0 0 6px;
+  display: block;
+  justify-content: center;
+  outline: none;
+  padding: 15px;
+  width: 40%;
+}
+
+/* Card */
+.cards-container {
+  padding: 4% 4%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #CCCCCC;
+  font-family: 'Signika Negative', sans-serif;
+  margin: 16px;
+
+  padding: 5px 16px 16px 16px;
+  text-align: center;
+  width: 400px;
+}
+
+.card-delete {
+  text-align: right;
+  margin-top: 0px;
+}
+
+.card-location {
+  font-size: 2.5rem;
+}
+
+.card-description {
+  font-size: 1rem;
+}
+
+.card-temperature {
+  font-size: 3rem;
+  padding: 7%;
+}
+
+.card-min-max {
+  font-size: 1rem;
+}
