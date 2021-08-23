@@ -7,44 +7,42 @@ const conditions = [
     {
         "group": 2,
         "condition": "thunderstorm",
-        "url": "../assets/thunderstorm.gif"
+        "url": "assets/thunderstorm.gif"
     },
     {
         "group": 3,
         "condition": "rain",
-        "url": "../assets/rain.gif"
+        "url": "assets/rain.gif"
     },
     {
         "group": 5,
         "condition": "rain",
-        "url": "../assets/rain.gif"
+        "url": "assets/rain.gif"
     },
     {
         "group": 6,
         "condition": "snow",
-        "url": "../assets/snow.gif"
+        "url": "assets/snow.gif"
     },
     {
         "group": 7,
         "condition": "atmosphere",
-        "url": "../assets/atmosphere.gif"
+        "url": "assets/atmosphere.gif"
     },
     {
         "group": 800,
         "condition": "clear",
-        "url": "../assets/clear.gif"
+        "url": "assets/clear.gif"
     },
     {
         "group": 8,
         "condition": "clouds",
-        "url": "../assets/clouds.gif"
+        "url": "assets/clouds.gif"
     }
 ]
 
 function getUrl(id) {
     const result = conditions.filter(condition => condition.group === id);
-    console.log(id);
-    console.log(result);
     return result[0].url;
 }
 
