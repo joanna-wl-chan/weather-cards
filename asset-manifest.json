@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/weather-cards/static/js/main.a3dbe6b9.chunk.js",
-    "main.js.map": "/weather-cards/static/js/main.a3dbe6b9.chunk.js.map",
+    "main.js": "/weather-cards/static/js/main.356f45ee.chunk.js",
+    "main.js.map": "/weather-cards/static/js/main.356f45ee.chunk.js.map",
     "runtime-main.js": "/weather-cards/static/js/runtime-main.364045f0.js",
     "runtime-main.js.map": "/weather-cards/static/js/runtime-main.364045f0.js.map",
     "static/js/2.9d16ad06.chunk.js": "/weather-cards/static/js/2.9d16ad06.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.364045f0.js",
     "static/js/2.9d16ad06.chunk.js",
-    "static/js/main.a3dbe6b9.chunk.js"
+    "static/js/main.356f45ee.chunk.js"
   ]
 }
